@@ -1,0 +1,50 @@
+.signup-background {
+  min-height: 100vh;
+  background: url('../assets/bg.png') no-repeat center center fixed;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 10px;
+}
+
+
+
+
+
+.admin-signup-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(135deg, #e0f7fa, #ffffff);
+}
+
+.admin-signup-box {
+  background-color: #fff;
+  padding: 30px;
+  width: 100%;
+  max-width: 420px;
+  border-radius: 15px;
+  border: 2px solid #0d6efd;
+}
+
+.title {
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  color: #0d6efd;
+}
+
+.subline {
+  text-align: center;
+  font-size: 13px;
+  margin-bottom: 10px;
+  color: #555;
+}
+
+.admin-label {
+  font-weight: 600;
+  font-size: 18px;
+  color: #222;
+}

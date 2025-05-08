@@ -1,0 +1,74 @@
+/* AdminDashboard.css */
+
+..admin-dashboard-bg {
+  background-image: url('../assets/bg.png');
+
+
+  padding: 2rem;
+  border-radius: 10px;
+  min-height: 90vh;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+/* Header Styles */
+.admin-dashboard-bg h3 {
+  color: #0d47a1;
+  font-weight: bold;
+}
+
+.admin-dashboard-bg p {
+  margin-bottom: 0.2rem;
+}
+
+/* List Styling */
+.list-group-item {
+  font-size: 1rem;
+  background-color: #f9f9f9;
+  border-color: #ddd;
+  border-radius: 6px;
+  margin-bottom: 0.5rem;
+  transition: all 0.2s ease;
+}
+
+.list-group-item:hover {
+  background-color: #e3f2fd;
+}
+
+/* Button override */
+button {
+  background-color: #0d6efd;
+  color: #fff;
+  border: none;
+  padding: 0.5rem 1.2rem;
+  border-radius: 6px;
+  font-weight: 500;
+  transition: background-color 0.2s ease;
+}
+
+button:hover {
+  background-color: #0b5ed7;
+}
+
+/* Tabs */
+.nav-tabs .nav-link.active {
+  background-color: #0d47a1;
+  color: #fff;
+  border-color: transparent;
+  border-radius: 6px 6px 0 0;
+}
+
+.nav-tabs .nav-link {
+  font-weight: 500;
+  color: #0d47a1;
+}
+
+/* Approve Button */
+.btn-sm {
+  background-color: #4caf50 !important;
+  border: none;
+  font-weight: 500;
+}
+
+.btn-sm:hover {
+  background-color: #43a047 !important;
+}
